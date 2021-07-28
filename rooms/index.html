@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet" href="../assets/css/bootstrap/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- user css -->
+    <link rel="stylesheet" href="../assets/css/loading.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body id="pages">
+
+    <div class="loading-container animate__animated"></div>
+    <div class="custom-alert"></div>
+
+    <nav>
+        <!-- navbar -->
+        <div class="nav-container">
+            <div class="nav-content">
+                <a href="../">
+                    <img src="../assets/logo/logo-white.svg" alt="">
+                </a>
+                <div class="nav-link-content">
+                    <div class="nav-top-items">
+                        <div class="nav-items-link">
+                            <a href=""><i class="fa fa-envelope text-light"></i> karenshouseubud@gmail.com</a>
+                        </div>
+                        <div class="nav-items-link">
+                            <a href=""><i class="fa fa-phone text-light"></i> +6281 239 863 16</a>
+                        </div>
+                        <div class="nav-items-link nav-sosmed">
+                            <a href="https://www.instagram.com/karenshouse_ubud/" target="_blank">
+                                <i class="fab fa-instagram text-light"></i>
+                            </a>
+                            <a href="https://www.facebook.com/karenshouseubud/" target="_blank">
+                                <i class="fab fa-facebook-f text-light"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="nav-items">
+                        <div class="nav-items-link">
+                            <a href="../">Home</a>
+                        </div>
+                        <div class="nav-items-link dropdown">
+                            <a href="#">Rooms <i class="fas fa-chevron-down text-light"></i></a>
+                            <div class="dropdown-content">
+                                <a href="./rooms/?type=3">Family Room</a>
+                                <hr>
+                                <a href="./rooms/?type=2">Double Room Terrace View</a>
+                                <hr>
+                                <a href="./rooms/?type=3">Double Room Mountain View</a>
+                            </div>
+                        </div>
+                        <div class="nav-items-link">
+                            <a href="../gallery/">Gallery</a>
+                        </div>
+                        <div class="nav-items-link">
+                            <a href="../location/">Location</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- navbar white -->
+        <div class="nav-white-container">
+            <div class="nav-white-content">
+                <a href="../">
+                    <img src="../assets/logo/logo-black.svg" alt="">
+                </a>
+                <div class="nav-white-items-link">
+                    <div class="nav-white-link">
+                        <a href="../">Home</a>
+                    </div>
+                    <div class="nav-white-link dropdown">
+                        <a href="#">Rooms <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="./rooms/?type=1">Family Room</a>
+                            <hr>
+                            <a href="./rooms/?type=2">Double Room Terrace View</a>
+                            <hr>
+                            <a href="./rooms/?type=3">Double Room Mountain View</a>
+                        </div>
+                    </div>
+                    <div class="nav-white-link">
+                        <a href="../gallery/">Gallery</a>
+                    </div>
+                    <div class="nav-white-link">
+                        <a href="../location/">Location</a>
+                    </div>
+                    <div class="nav-white-link nav-book booking">
+                        <span class="book">Book Now <span class="icon-arrow">&#10230;</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- navbar mobile -->
+        <div class="nav-mobile-container">
+            <div class="nav-mobile-content">
+                <a href="../">
+                    <img class="nav-mobile-logo" src="../assets/logo/logo-white.svg" alt="">
+                </a>
+                <img class="menu-icon" src="../assets/icon/bars.svg" alt="">
+            </div>
+        </div>
+
+        <!-- nav mobile white -->
+        <div class="nav-white-mobile-container">
+            <div class="nav-white-mobile-content">
+                <a href="../">
+                    <img class="nav-white-mobile-logo" src="../assets/logo/logo-black.svg" alt="">
+                </a>
+                <div class="nav-white-mobile-item">
+                    <img class="nav-white-menu-icon" src="../assets/icon/bars-primary-light.svg" alt="">
+                    <div class="nav-white-book booking">
+                        <span>Book Now</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- sidenav mobile -->
+        <div class="sidenav-mobile-container">
+            <div class="sidenav-mobile-content">
+                <div class="sidenav-mobile-header">
+                    <a href="../">
+                        <img class="sidenav-mobile-logo" src="../assets/logo/logo-black.svg" alt="">
+                    </a>
+                    <i class="fi-rr-cross"></i>
+                </div>
+                <div class="sidenav-mobile-body">
+                    <div class="sidenav-mobile-item active">
+                        <a href="../">Home</a>
+                    </div>
+                    <div class="sidenav-mobile-item sidenav-dropdown">
+                        <a href="#">Rooms <i class="fi-rr-angle-small-down"></i></a>
+                    </div>
+                    <div class="sidenav-dropdown-container">
+                        <div class="sidenav-dropdown-content">
+                            <a href="../rooms/?type=1">Family Room</a>
+                            <hr>
+                            <a href="../rooms/?type=2">Double Room Terrace View</a>
+                            <hr>
+                            <a href="../rooms/?type=3">Double Room Mountain View</a>
+                        </div>
+                    </div>
+                    <div class="sidenav-mobile-item">
+                        <a href="../gallery/">Gallery</a>
+                    </div>
+                    <div class="sidenav-mobile-item">
+                        <a href="../location/">Location</a>
+                    </div>
+                    <div class="sidenav-mobile-footer">
+                        <p class="mb-2">Stay connected with us</p>
+                        <div class="sidenav-mobile-footer-content">
+                            <a href="https://www.instagram.com/karenshouse_ubud/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/karenshouseubud/" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carousel-room" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner w-100">
+            <div data-aos="zoom-out" data-aos-duration="2000" id="carousel-room-img">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" id="thumbnail">
+                </div>
+            </div>
+
+            <div class="scroll-down-container">
+                <div class="scroll-down-content">
+                    <a href="#content">
+                        <i class="fi-rr-angle-down text-light"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-md bg-white mb-3" id="content">
+            <div class="room-content">
+                <div data-aos="fade-up" data-aos-duration="400">
+                    <p class="page-small mb-2">Room Type</p>
+                    <h2 class="page-title" id="title"></h2>
+                    <div class="room-facility-content" data-aos="fade-up" data-aos-duration="400">
+                        <div class="room-facility-item">
+                            <i class="fas fa-bed"></i> <span class="room-facility" id="bed"></span>
+                        </div>
+                        <div class="room-facility-item">
+                            <i class="fas fa-ruler-combined"></i> <span class="room-facility" id="room_size"></span>
+                        </div>
+                        <div class="room-facility-item">
+                            <i class="fas fa-bath"></i> <span class="room-facility" id="bathroom"></span>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="400">
+                        <p class="page-desc mt-3 mb-0" id="desc"></p>
+                    </div>
+                </div>
+
+                <div class="room-img-content" data-aos="fade-up" data-aos-duration="400" id="room-img">
+
+                </div>
+            </div>
+            <div class="room-content features mb-3" data-aos="fade-up" data-aos-duration="400">
+                <p class="page-small mb-2" id="features-title"></p>
+                <h2 class="page-title">Room Features</h2>
+                <div class="room-features-content" id="facilities" data-aos="fade-up" data-aos-duration="400"
+                    data-aos-delay="200">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- other room -->
+        <div class="container-md other-room-container bg-white" data-aos="fade-up" data-aos-duration="400">
+            <div class="room-content" data-aos="fade-up" data-aos-duration="400" data-aos-delay="200">
+                <div class="other-room-header">
+                    <p class="page-small">Other Room Type</p>
+                    <h2 class="page-title">Other Room Type</h2>
+                </div>
+                <div class="owl-carousel owl-theme other-room-img-content" id="other-room" data-aos="fade-up"
+                    data-aos-duration="400" data-aos-delay="400">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer data-aos="fade-up" data-aos-duration="400"></footer>
+
+    <script src="../assets/js/jquery/jquery-3.6.0.js"></script>
+    <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="../assets/fontawesome/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../assets/js/custom/data-aos-demo.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="../assets/jquery.lazy-master/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="../assets/jquery.lazy-master/jquery.lazy.plugins.min.js"></script>
+
+    <!-- user js -->
+    <script src="../assets/js/custom/custom.js"></script>
+    <script src="../assets/js/custom/custom-alert.js"></script>
+    <script src="../assets/js/custom/booking.js"></script>
+    <script src="../assets/js/front-end/loading.js"></script>
+    <script src="../assets/js/front-end/room-read-api.js"></script>
+</body>
+
+</html>

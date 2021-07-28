@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karéns House | Hidden Paradise of Ubud</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- user css -->
+    <link rel="stylesheet" href="assets/css/loading.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="loading-container animate__animated"></div>
+    <div class="custom-alert"></div>
+
+    <nav>
+        <!-- navbar -->
+        <div class="nav-container">
+            <div class="nav-content">
+                <a href="./">
+                    <img src="assets/logo/logo-white.svg" alt="">
+                </a>
+                <div class="nav-link-content">
+                    <div class="nav-top-items">
+                        <div class="nav-items-link">
+                            <a href=""><i class="fa fa-envelope text-light"></i> karenshouseubud@gmail.com</a>
+                        </div>
+                        <div class="nav-items-link">
+                            <a href=""><i class="fa fa-phone text-light"></i> +6281 239 863 16</a>
+                        </div>
+                        <div class="nav-items-link nav-sosmed">
+                            <a href="https://www.instagram.com/karenshouse_ubud/" target="_blank">
+                                <i class="fab fa-instagram text-light"></i>
+                            </a>
+                            <a href="https://www.facebook.com/karenshouseubud/" target="_blank">
+                                <i class="fab fa-facebook-f text-light"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="nav-items">
+                        <div class="nav-items-link">
+                            <a href="./">Home</a>
+                        </div>
+                        <div class="nav-items-link dropdown">
+                            <a href="#">Rooms <i class="fas fa-chevron-down text-light"></i></a>
+                            <div class="dropdown-content">
+                                <a href="rooms/?type=3">Family Room</a>
+                                <hr>
+                                <a href="rooms/?type=2">Double Room Terrace View</a>
+                                <hr>
+                                <a href="rooms/?type=3">Double Room Mountain View</a>
+                            </div>
+                        </div>
+                        <div class="nav-items-link">
+                            <a href="gallery/">Gallery</a>
+                        </div>
+                        <div class="nav-items-link">
+                            <a href="location/">Location</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- navbar white -->
+        <div class="nav-white-container">
+            <div class="nav-white-content">
+                <a href="./">
+                    <img src="assets/logo/logo-black.svg" alt="">
+                </a>
+                <div class="nav-white-items-link">
+                    <div class="nav-white-link">
+                        <a href="./">Home</a>
+                    </div>
+                    <div class="nav-white-link dropdown">
+                        <a href="#">Rooms <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="rooms/?type=1">Family Room</a>
+                            <hr>
+                            <a href="rooms/?type=2">Double Room Terrace View</a>
+                            <hr>
+                            <a href="rooms/?type=3">Double Room Mountain View</a>
+                        </div>
+                    </div>
+                    <div class="nav-white-link">
+                        <a href="gallery/">Gallery</a>
+                    </div>
+                    <div class="nav-white-link">
+                        <a href="location/">Location</a>
+                    </div>
+                    <div class="nav-white-link nav-book booking">
+                        <span class="book">Book Now <span class="icon-arrow">&#10230;</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- navbar mobile -->
+        <div class="nav-mobile-container">
+            <div class="nav-mobile-content">
+                <a href="./">
+                    <img class="nav-mobile-logo" src="assets/logo/logo-white.svg" alt="">
+                </a>
+                <img class="menu-icon" src="assets/icon/bars.svg" alt="">
+            </div>
+        </div>
+
+        <!-- nav mobile white -->
+        <div class="nav-white-mobile-container">
+            <div class="nav-white-mobile-content">
+                <a href="./">
+                    <img class="nav-white-mobile-logo" src="assets/logo/logo-black.svg" alt="">
+                </a>
+                <div class="nav-white-mobile-item">
+                    <img class="nav-white-menu-icon" src="assets/icon/bars-primary-light.svg" alt="">
+                    <div class="nav-white-book booking">
+                        <span>Book Now</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- sidenav mobile -->
+        <div class="sidenav-mobile-container">
+            <div class="sidenav-mobile-content">
+                <div class="sidenav-mobile-header">
+                    <a href="./">
+                        <img class="sidenav-mobile-logo" src="assets/logo/logo-black.svg" alt="">
+                    </a>
+                    <i class="fi-rr-cross"></i>
+                </div>
+                <div class="sidenav-mobile-body">
+                    <div class="sidenav-mobile-item active">
+                        <a href="./">Home</a>
+                    </div>
+                    <div class="sidenav-mobile-item sidenav-dropdown">
+                        <a href="#">Rooms <i class="fi-rr-angle-small-down"></i></a>
+                    </div>
+                    <div class="sidenav-dropdown-container">
+                        <div class="sidenav-dropdown-content">
+                            <a href="rooms/?type=1">Family Room</a>
+                            <hr>
+                            <a href="rooms/?type=2">Double Room Terrace View</a>
+                            <hr>
+                            <a href="rooms/?type=3">Double Room Mountain View</a>
+                        </div>
+                    </div>
+                    <div class="sidenav-mobile-item">
+                        <a href="gallery/">Gallery</a>
+                    </div>
+                    <div class="sidenav-mobile-item">
+                        <a href="location/">Location</a>
+                    </div>
+                    <div class="sidenav-mobile-footer">
+                        <p class="mb-2">Stay connected with us</p>
+                        <div class="sidenav-mobile-footer-content">
+                            <a href="https://www.instagram.com/karenshouse_ubud/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/karenshouseubud/" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="pages">
+        <!-- index carousel -->
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators" id="carousel-indicator">
+            </ol>
+            <div class="carousel-inner w-100">
+                <div data-aos="zoom-out" data-aos-duration="2000" id="carousel-img">
+
+                </div>
+            </div>
+
+            <div class="carousel-title-container" data-aos="fade-up" data-aos-duration="7000">
+                <div class="carousel-title-content">
+                    <div class="d-flex">
+                        <h1>Hidden Paradise of Ubud</h1>
+                        <hr>
+                    </div>
+                    <p>A peacefull place with beautiful landscape</p>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <i class="fi-rr-angle-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <i class="fi-rr-angle-right"></i>
+            </a>
+
+            <div class="scroll-down-container">
+                <div class="scroll-down-content">
+                    <a href="#about">
+                        <i class="fi-rr-angle-down text-light"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- index about -->
+        <div class="index-content bg-white" id="about">
+            <div class="index-item" data-aos="fade-up" data-aos-duration="400">
+                <p class="page-small mb-2">Hidden Paradise of Ubud</p>
+                <h2 class="page-title">About Karéns House</h2>
+            </div>
+            <div class="index-item" data-aos="fade-up" data-aos-duration="400">
+                <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="400">
+                    <p class="page-desc">Located 5 km from Neka Art Museum, Karen House Ubud provides accommodation
+                        with a garden, a terrace and a 24-hour front desk for your convenience. All units feature air
+                        conditioning and a flat-screen TV.
+                        A continental breakfast is available daily at the bed and breakfast.
+                        If you would like to discover the area, cycling is possible in the surroundings.
+                        <br><br>
+                        Blanco Museum is 6 km from Karen House Ubud, while Saraswati Temple is 6 km away. The nearest
+                        airport is Ngurah Rai International, 34 km from the accommodation, and the property offers a
+                        paid airport shuttle service.
+                    </p>
+                    <div class="index-sosmed">
+                        <a href="https://www.instagram.com/karenshouse_ubud/" target="_blank">
+                            <i class="fab fa-instagram text-light"></i>
+                        </a>
+                        <a href="https://www.facebook.com/karenshouseubud/" target="_blank">
+                            <i class="fab fa-facebook-f text-light"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- index room type -->
+        <div class="container-sm" id="rooms">
+            <div data-aos="fade-up" data-aos-duration="400">
+                <div class="owl-carousel owl-theme" id="index-room-type">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- index gallery -->
+        <div class="container-sm" id="discover">
+            <div class="index-gallery-content" data-aos="fade-up" data-aos-duration="400">
+                <div class="index-gallery-item">
+                    <a href="gallery/">
+                        <div class="index-gallery-overlay">
+                            <div class="index-gallery-overlay-content">
+                                <div class="d-flex justify-content-between align-items-end">
+                                    <div class="d-flex flex-column">
+                                        <h6 class="index-gallery-overlay-subtitle">Discover</h6>
+                                        <h3 class="index-gallery-overlay-title">Front</h3>
+                                    </div>
+                                    <i class="index-gallery-icon fi-rr-plus text-light"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <img id="img-gallery-front" src="">
+                    </a>
+                </div>
+                <div class="index-gallery-item">
+                    <div class="index-gallery-item-right">
+                        <a href="gallery/">
+                            <div class="index-gallery-overlay">
+                                <div class="index-gallery-overlay-content">
+                                    <div class="d-flex justify-content-between align-items-end">
+                                        <div class="d-flex flex-column">
+                                            <h6 class="index-gallery-overlay-subtitle">Discover</h6>
+                                            <h3 class="index-gallery-overlay-title title-right">Bedroom</h3>
+                                        </div>
+                                        <i class="index-gallery-icon fi-rr-plus text-light"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <img id="img-gallery-bedroom" src="" alt="">
+                        </a>
+                    </div>
+                    <div class="index-gallery-item-right">
+                        <a href="gallery/">
+                            <div class="index-gallery-overlay">
+                                <div class="index-gallery-overlay-content">
+                                    <div class="d-flex justify-content-between align-items-end">
+                                        <div class="d-flex flex-column">
+                                            <h6 class="index-gallery-overlay-subtitle">Discover</h6>
+                                            <h3 class="index-gallery-overlay-title title-right">Living Room</h3>
+                                        </div>
+                                        <i class="index-gallery-icon fi-rr-plus text-light"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <img id="img-gallery-livingroom" src="" alt="">
+                        </a>
+                    </div>
+                    <div class="index-gallery-item-right">
+                        <a href="gallery/">
+                            <div class="index-gallery-overlay">
+                                <div class="index-gallery-overlay-content">
+                                    <div class="d-flex justify-content-between align-items-end">
+                                        <div class="d-flex flex-column">
+                                            <h6 class="index-gallery-overlay-subtitle">Discover</h6>
+                                            <h3 class="index-gallery-overlay-title title-right">Bathroom</h3>
+                                        </div>
+                                        <i class="index-gallery-icon fi-rr-plus text-light"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <img id="img-gallery-bathroom" src="" alt="">
+                        </a>
+                    </div>
+                    <div class="index-gallery-item-right">
+                        <a href="gallery/">
+                            <div class="index-gallery-overlay">
+                                <div class="index-gallery-overlay-content">
+                                    <div class="d-flex justify-content-between align-items-end">
+                                        <div class="d-flex flex-column">
+                                            <h6 class="index-gallery-overlay-subtitle">Discover</h6>
+                                            <h3 class="index-gallery-overlay-title title-right">Terrace</h3>
+                                        </div>
+                                        <i class="index-gallery-icon fi-rr-plus text-light"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <img id="img-gallery-terrace" src="" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-sm">
+            <div class="index-map-content" data-aos="fade-up" data-aos-duration="400">
+                <div class="index-map-item">
+                    <p class="page-small mb-2">Location</p>
+                    <h2 class="page-title">Our Location</h2>
+                    <p class="index-location-desc text-secondary">Br. Ayah, Desa Kelusa, Kecamatan Payangan, Ubud</p>
+                    <div class="btn-expolore-map">
+                        <a href="location/">
+                            <button class="btn btn-outline-primary">Explore <span>&#10230;</span></button>
+                        </a>
+                    </div>
+                </div>
+                <div class="index-map-item">
+                    <div class="index-map"></div>
+                </div>
+            </div>
+        </div>
+
+        <footer data-aos="fade-up" data-aos-duration="400"></footer>
+    </section>
+
+
+    <script src="assets/js/jquery/jquery-3.6.0.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/fontawesome/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/custom/data-aos-demo.js"></script>
+    <script type="text/javascript" src="assets/jquery.lazy-master/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="assets/jquery.lazy-master/jquery.lazy.plugins.min.js"></script>
+
+    <!-- user js -->
+    <script src="assets/js/custom/custom.js"></script>
+    <script src="assets/js/front-end/loading.js"></script>
+    <script src="assets/js/custom/custom-alert.js"></script>
+    <script src="assets/js/front-end/index-read-api.js"></script>
+    <script src="assets/js/custom/booking.js"></script>
+
+</body>
+
+</html>

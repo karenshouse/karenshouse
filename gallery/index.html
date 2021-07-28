@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Karéns House Ubud</title>
+
+    <link rel="stylesheet" href="../assets/css/bootstrap/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- user css -->
+    <link rel="stylesheet" href="../assets/css/loading.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body id="pages">
+    <div class="loading-container animate__animated"></div>
+    <div class="custom-alert"></div>
+
+    <nav>
+        <!-- navbar white -->
+        <div class="nav-white-container d-block nav-border-bottom">
+            <div class="nav-white-content">
+                <a href="../">
+                    <img src="../assets/logo/logo-black.svg" alt="">
+                </a>
+                <div class="nav-white-items-link">
+                    <div class="nav-white-link">
+                        <a href="../">Home</a>
+                    </div>
+                    <div class="nav-white-link dropdown">
+                        <a href="#">Rooms <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="../rooms/?type=1">Family Room</a>
+                            <hr>
+                            <a href="../rooms/?type=2">Double Room Terrace View</a>
+                            <hr>
+                            <a href="../rooms/?type=3">Double Room Mountain View</a>
+                        </div>
+                    </div>
+                    <div class="nav-white-link">
+                        <a href="../gallery/">Gallery</a>
+                    </div>
+                    <div class="nav-white-link">
+                        <a href="../location/">Location</a>
+                    </div>
+                    <div class="nav-white-link nav-book booking">
+                        <span class="book">Book Now <span class="icon-arrow">&#10230;</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- nav mobile white -->
+        <div class="nav-white-mobile-container d-block">
+            <div class="nav-white-mobile-content">
+                <a href="../">
+                    <img class="nav-white-mobile-logo" src="../assets/logo/logo-black.svg" alt="">
+                </a>
+                <div class="nav-white-mobile-item">
+                    <img class="nav-white-menu-icon" src="../assets/icon/bars-primary-light.svg" alt="">
+                    <div class="nav-white-book booking">
+                        <span>Book Now</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- sidenav mobile -->
+        <div class="sidenav-mobile-container">
+            <div class="sidenav-mobile-content">
+                <div class="sidenav-mobile-header">
+                    <a href="../">
+                        <img class="sidenav-mobile-logo" src="../assets/logo/logo-black.svg" alt="">
+                    </a>
+                    <i class="fi-rr-cross"></i>
+                </div>
+                <div class="sidenav-mobile-body">
+                    <div class="sidenav-mobile-item">
+                        <a href="../">Home</a>
+                    </div>
+                    <div class="sidenav-mobile-item sidenav-dropdown">
+                        <a href="#">Rooms <i class="fi-rr-angle-small-down"></i></a>
+                    </div>
+                    <div class="sidenav-dropdown-container">
+                        <div class="sidenav-dropdown-content">
+                            <a href="../rooms/?type=1">Family Room</a>
+                            <hr>
+                            <a href="../rooms/?type=2">Double Room Terrace View</a>
+                            <hr>
+                            <a href="../rooms/?type=3">Double Room Mountain View</a>
+                        </div>
+                    </div>
+                    <div class="sidenav-mobile-item active">
+                        <a href="../gallery/">Gallery</a>
+                    </div>
+                    <div class="sidenav-mobile-item">
+                        <a href="../location/">Location</a>
+                    </div>
+                    <div class="sidenav-mobile-footer">
+                        <p class="mb-2">Stay connected with us</p>
+                        <div class="sidenav-mobile-footer-content">
+                            <a href="https://www.instagram.com/karenshouse_ubud/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/karenshouseubud/" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-sm bg-white">
+        <div data-aos="fade-up" data-aos-duration="800">
+            <div class="gallery-header">
+                <h1 class="gallery-title">Gallery</h1>
+                <hr>
+            </div>
+            <ul class="nav-gallery nav nav-pills nav-fill mb-4" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#all">All</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#front">Front</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#bedroom">Bedroom</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#living-room">Living Room</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#bathroom">Bathroom</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#terrace">Terrace</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="all">
+                <div class="gallery-content" data-aos="fade-up" data-aos-duration="800" id="gallery-all"></div>
+            </div>
+            <div class="tab-pane fade" id="front">
+                <div class="gallery-content" data-aos="fade-up" data-aos-duration="800" id="gallery-front"></div>
+            </div>
+            <div class="tab-pane fade" id="bedroom">
+                <div class="gallery-content" data-aos="fade-up" data-aos-duration="800" id="gallery-bedroom"></div>
+            </div>
+            <div class="tab-pane fade" id="living-room">
+                <div class="gallery-content" data-aos="fade-up" data-aos-duration="800" id="gallery-livingroom"></div>
+            </div>
+            <div class="tab-pane fade" id="bathroom">
+                <div class="gallery-content" data-aos="fade-up" data-aos-duration="800" id="gallery-bathroom"></div>
+            </div>
+            <div class="tab-pane fade" id="terrace">
+                <div class="gallery-content" data-aos="fade-up" data-aos-duration="800" id="gallery-terrace"></div>
+            </div>
+        </div>
+        <div class="load-more">
+            <button class="btn btn-load-more">
+                load more
+            </button>
+        </div>
+    </div>
+
+    <footer data-aos="fade-up" data-aos-duration="400"></footer>
+
+
+    <script src="../assets/js/jquery/jquery-3.6.0.js"></script>
+    <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="../assets/fontawesome/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../assets/js/custom/data-aos-demo.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="../assets/jquery.lazy-master/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="../assets/jquery.lazy-master/jquery.lazy.plugins.min.js"></script>
+
+    <!-- user js -->
+    <script src="../assets/js/custom/custom-navbar.js"></script>
+    <script src="../assets/js/custom/custom-alert.js"></script>
+    <script src="../assets/js/custom/booking.js"></script>
+    <script src="../assets/js/front-end/loading.js"></script>
+    <script src="../assets/js/front-end/gallery-read-api.js"></script>
+</body>
+
+</html>
